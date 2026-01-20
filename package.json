@@ -9,7 +9,7 @@
     "#controllers/*": "./src/controllers/*",
     "#models/*": "./src/models/*",
     "#services/*": "./src/services/*",
-    "#middlewares/*": "./src/middlewares/*",
+    "#middleware/*": "./src/middleware/*",
     "#routes/*": "./src/routes/*",
     "#utils/*": "./src/utils/*",
     "#validations/*": "./src/validations/*"
@@ -36,6 +36,8 @@
   },
   "homepage": "https://github.com/ShahMuhammad151/acquisitions#readme",
   "dependencies": {
+    "@arcjet/inspect": "^1.0.0-beta.17",
+    "@arcjet/node": "^1.0.0-beta.17",
     "@neondatabase/serverless": "^1.0.2",
     "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
